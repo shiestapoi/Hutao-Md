@@ -20,7 +20,7 @@
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@latest",
+        "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@6.7.8",
         "@bochilteam/scraper": "^4.2.4",
         "@distube/ytdl-core": "^4.13.3",
         "awesome-phonenumber": "^6.4.0",
@@ -39,7 +39,6 @@
         "node-webpmux": "^3.2.0",
         "syntax-error": "^1.4.0",
         "url-regex-safe": "^4.0.0",
-        "yargs": "*",
-        "ytdl-core": "^4.11.5"
+        "yargs": "^17.7.2"
     }
 }

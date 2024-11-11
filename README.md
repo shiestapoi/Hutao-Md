@@ -1,7 +1,7 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/NeeasTooID/Static-HTML/main/media/699d68b34a8d937c21aae93cdf3459ff.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://raw.githubusercontent.com/NeofetchNpc/ArchiveTMP/refs/heads/main/img-mp4/0194e08d62506aa0aea73dcaa743eb12.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
-<h1 align="center">Hutawir V1</h1>
+<h1 align="center">Base Bot Wa</h1>
 
 </p>
 <p align="center">
@@ -35,6 +35,5 @@
 [![Fau-Zan](https://github.com/Fau-Zan.png?size=100)](https://github.com/Fau-Zan)
 
 ### Recode
-[![NeastooID](https://github.com/NeastooID.png?size=100)](https://github.com/NeastooID)
-[![HindiaFtNpc](https://github.com/HindiaFtNpc.png?size=100)](https://github.com/HindiaFtNpc)
+[![NeofetchNpc](https://github.com/NeofetchNpc.png?size=100)](https://github.com/NeofetchNpc)
 [![NeastooID](https://github.com/NeeasTooID.png?size=100)](https://github.com/NeeasTooID)

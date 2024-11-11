@@ -41,7 +41,7 @@ handler.all = async function (m) {
                     mediaUrl: sgw,
                     description: namebot,
                     previewType: "PHOTO",
-                    thumbnail: fs.readFileSync('./thumbnail.jpg'),
+                    thumbnail: fs.readFileSync('./lib/img/thumbnail.jpg'),
                     //thumbnail: await (await fetch(pp)).buffer(),
                     sourceUrl: sgw,
                 }
@@ -132,7 +132,7 @@ handler.all = async function (m) {
                     "product": {
                         "productImage": {
                             "mimetype": "image/jpeg",
-                            "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
+                            "jpegThumbnail": fs.readFileSync('./lib/img/thumbnail.jpg') //Gambarnye
                         },
                         "title": wm, //Kasih namalu 
                         "description": "Simple Bot Esm",
@@ -153,7 +153,7 @@ handler.all = async function (m) {
             message: {
                 documentMessage: {
                     title: wm,
-                    jpegThumbnail: fs.readFileSync('./thumbnail.jpg')
+                    jpegThumbnail: fs.readFileSync('./lib/img/thumbnail.jpg')
                 }
             }
         }
@@ -170,7 +170,7 @@ handler.all = async function (m) {
                     "inviteCode": "null",
                     "groupName": "Kawan WH MODS DEV",
                     "caption": wm,
-                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
+                    'jpegThumbnail': fs.readFileSync('./lib/img/thumbnail.jpg')
                 }
             }
         }
@@ -188,7 +188,7 @@ handler.all = async function (m) {
                     'seconds': '999999999',
                     'gifPlayback': 'true',
                     'caption': wm,
-                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
+                    'jpegThumbnail': fs.readFileSync('./lib/img/thumbnail.jpg')
                 }
             }
         }

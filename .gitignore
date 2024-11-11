@@ -1,2 +1,5 @@
 node_modules
-package_lock.json
+package-lock.json
+sessions/p*
+sessions/app*
+sessions/s*

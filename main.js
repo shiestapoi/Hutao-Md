@@ -156,16 +156,6 @@ if (usePairingCode && !conn.authState.creds.registered) {
   }, 3000)
 }
 
-if (!opts['test']) {
-  (await import('./server.js')).default(PORT)
-  setInterval(async () => {
-    if (global.db.data) await global.db.write().catch(console.error)
-    // if (opts['autocleartmp']) try {
-    clearTmp()
-    //  } catch (e) { console.error(e) }
-  }, 60 * 1000)
-}
-
 async function resetLimit() {
   try {
     let list = Object.entries(global.db.data.users);
@@ -193,7 +183,7 @@ function clearTmp() {
   return filename.map(file => {
     const stats = statSync(file)
     if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 3)) return unlinkSync(file) // 3 minutes
-    return false
+    return true
   })
 }
 

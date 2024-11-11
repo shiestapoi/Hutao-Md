@@ -1,1 +1,113 @@
-{}
+{
+  "users": {
+    "6283895099347@s.whatsapp.net": {
+      "exp": 179,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "LinucxMD/CS",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "banReason": "",
+      "warn": 0,
+      "level": 0,
+      "role": "Free user",
+      "autolevelup": true
+    },
+    "6283897390164@s.whatsapp.net": {
+      "exp": 21,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Npc",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "banReason": "",
+      "warn": 0,
+      "level": 0,
+      "role": "Free user",
+      "autolevelup": true
+    }
+  },
+  "chats": {
+    "6283895099347@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false,
+      "simi": false,
+      "autogpt": false,
+      "expired": 0,
+      "autoSticker": false,
+      "premium": false,
+      "premiumTime": false,
+      "nsfw": false,
+      "menu": true,
+      "antiToxic": false
+    },
+    "6283897390164@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false,
+      "simi": false,
+      "autogpt": false,
+      "expired": 0,
+      "autoSticker": false,
+      "premium": false,
+      "premiumTime": false,
+      "nsfw": false,
+      "menu": true,
+      "antiToxic": false
+    }
+  },
+  "stats": {
+    "info-speed.js": {
+      "total": 3,
+      "success": 0,
+      "last": 1731358712439,
+      "lastSuccess": 0
+    },
+    "info-runtime.js": {
+      "total": 5,
+      "success": 2,
+      "last": 1731359518441,
+      "lastSuccess": 1731359518441
+    },
+    "info-ping.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1731359524632,
+      "lastSuccess": 1731359524632
+    }
+  },
+  "msgs": {},
+  "sticker": {},
+  "settings": {
+    "6283895099347@s.whatsapp.net": {
+      "self": false,
+      "autoread": false,
+      "anticall": true,
+      "restartDB": 0,
+      "restrict": false
+    }
+  }
+}

@@ -71,7 +71,7 @@ handler.all = async function (m) {
         }
         // Fake 🤥
         global.ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 9999999999999999999999999999999999999999999999999999999, status: 1, surface: 1, message: wm, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
-        global.fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg'), thumbnail: fs.readFileSync('./thumbnail.jpg'), sendEphemeral: true } } }
+        global.fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./lib/img/thumbnail.jpg'), thumbnail: fs.readFileSync('./lib/img/thumbnail.jpg'), sendEphemeral: true } } }
         global.fvn = {
             key: {
                 fromMe: false,
@@ -97,7 +97,7 @@ handler.all = async function (m) {
                 "extendedTextMessage": {
                     "text": wm,
                     "title": wm,
-                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
+                    'jpegThumbnail': fs.readFileSync('./lib/img/thumbnail.jpg')
                 }
             }
         }
@@ -109,7 +109,7 @@ handler.all = async function (m) {
                 participant: `0@s.whatsapp.net`, ...(m.chat ?
                     { remoteJid: "status@broadcast" } : {})
             },
-            message: { "liveLocationMessage": { "caption": "by : WH MODS DEV", "h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg') } }
+            message: { "liveLocationMessage": { "caption": "by : WH MODS DEV", "h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./lib/img/thumbnail.jpg') } }
         }
 
         global.fliveLoc2 = {
@@ -119,7 +119,7 @@ handler.all = async function (m) {
                 participant: `0@s.whatsapp.net`, ...(m.chat ?
                     { remoteJid: "status@broadcast" } : {})
             },
-            message: { "liveLocationMessage": { "title": "WH MODS DEV", "h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg') } }
+            message: { "liveLocationMessage": { "title": "WH MODS DEV", "h": wm, 'jpegThumbnail': fs.readFileSync('./lib/img/thumbnail.jpg') } }
         }
 
         global.ftoko = {

@@ -49,6 +49,9 @@ global.sig = 'https://www.instagram.com/yusupk._'
 global.sgh = 'https://github.com/NeofetchNpc'
 global.sgc = 'https://whatsapp.com/channel/0029VaGoqK589indDi4Am40J'
 global.sgw = 'https://api.neastooid.xyz'
+global.sdc = 'https://whatsapp.com/channel/0029Val1cKp4SpkEzc2jyL3y'
+global.sfb = 'https://www.facebook.com/'
+global.snh = 'https://www.instagram.com/yusupk._'
 
 /*============= DONASI =============*/
 global.pdana = '083897390164'

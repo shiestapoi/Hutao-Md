@@ -46,7 +46,28 @@ export const cmd = {
             teks = 'Tidak ada perintah yang ditemukan untuk kategori ini.'
         }
 
-        await m.reply(teks)
+        // Kirim pesan menggunakan conn.sendMessage
+        await conn.sendMessage(m.chat, {
+            text: teks,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 1,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: global.infochannel,
+                    serverMessageId: null,
+                    newsletterName: global.infonamechannel,
+                },
+                externalAdReply: {
+                    title: global.infonamebot + `© 2024`,
+                    body: 'Powered By YusupKakuu',
+                    thumbnailUrl: thum,
+                    sourceUrl: ["https://chat.whatsapp.com/Bpaxfv3a1tLIx0gaGZTQpN"],
+                    mediaType: 1,
+                    renderLargerThumbnail: true
+                },
+            },
+        })
     }
 }
 

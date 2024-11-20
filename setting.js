@@ -2,11 +2,11 @@ import path from 'path'
 
 const timeZone = 'Asia/Jakarta'
 
-const tempName = 'temp'
+const tempName = 'tmp'
 global.tempDir = path.resolve(new URL('.', import.meta.url).pathname, tempName)
 
 const owner = [
-    ['6282xxxxxxx', 'YusupKakuu'],
+    ['6283897390164', 'YusupKakuu'],
     ['6282xxxxxxx']
 ]
 

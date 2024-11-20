@@ -1,0 +1,38 @@
+{
+    "users": [],
+    "groups": [
+        {
+            "jid": "6283897390164-1634189022@g.us",
+            "setting": {
+                "banned": false,
+                "detect": false,
+                "nsfw": false,
+                "antilink": false,
+                "antiraid": false,
+                "antivo": false,
+                "welcome": {
+                    "status": false,
+                    "msg": ""
+                }
+            },
+            "users": []
+        }
+    ],
+    "settings": [
+        {
+            "jid": "6283895099347@s.whatsapp.net",
+            "mode": "public",
+            "prefix": [
+                "/",
+                "!",
+                "#",
+                ".",
+                "-",
+                "🗿"
+            ],
+            "autojoin": false
+        }
+    ],
+    "stickers": [],
+    "others": []
+}

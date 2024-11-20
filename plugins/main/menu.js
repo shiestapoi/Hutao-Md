@@ -27,7 +27,7 @@ export const cmd = {
         const ucapannye = ucapan()
         let teks = `${ucapannye}\n`
             + `Sistem otomatis *Whatsapp Bot* yang di buat dengan *_baileys_* yang siap membantu anda.\n\n`
-            + `◦  *Waktu* · ${formatDateInTimeZone(currentDate, timeZone)}\n`
+            + `â—¦  *Waktu* Â· ${formatDateInTimeZone(currentDate, timeZone)}\n`
         let totalFitur = 0
         for (const tag in tags) {
             teks += `\n*${tags[tag].name.toUpperCase()}*\n`
@@ -55,11 +55,11 @@ export const cmd = {
 function ucapan() {
     const time = new Date()
     const greetings = {
-        midnight: 'Selamat tengah malam 🌌',
-        morning: 'Selamat pagi 🌄',
-        noon: 'Selamat siang 🌤',
-        afternoon: 'Selamat sore 🌇',
-        night: 'Selamat malam 🎑'
+        midnight: 'Selamat tengah malam ðŸŒŒ',
+        morning: 'Selamat pagi ðŸŒ„',
+        noon: 'Selamat siang ðŸŒ¤',
+        afternoon: 'Selamat sore ðŸŒ‡',
+        night: 'Selamat malam ðŸŽ‘'
     }
 
     const hour = formatDateInTimeZone(time, timeZone).split(',')[1].split(':')[0]

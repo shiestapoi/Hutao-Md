@@ -54,10 +54,10 @@ export const cmd = {
                 forwardingScore: 1,
                 isForwarded: true,
                 externalAdReply: {
-                    title: global.info.namebot + `© 2024`,
+                    title: `LinucxMD © 2024`,
                     body: 'Powered By YusupKakuu',
-                    thumbnailUrl: global.maximus ? global.maximus : thum,
-                    sourceUrl: ["https://chat.whatsapp.com/Bpaxfv3a1tLIx0gaGZTQpN"],
+                    thumbnailUrl: 'https://raw.githubusercontent.com/NeofetchNpc/ArchiveTMP/refs/heads/main/img-mp4/0194e08d62506aa0aea73dcaa743eb12.jpg',
+                    sourceUrl: 'https://chat.whatsapp.com/Bpaxfv3a1tLIx0gaGZTQpN',
                     mediaType: 1,
                     renderLargerThumbnail: true
                 },

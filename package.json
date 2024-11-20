@@ -1,6 +1,6 @@
 {
-    "name": "whatsapp-bot",
-    "version": "1.0.4-beta",
+    "name": "Huato-Md",
+    "version": "0.0.1",
     "description": "WhatsApp bot using the Baileys library",
     "main": "index.js",
     "type": "module",
@@ -12,8 +12,8 @@
         "wabot",
         "baileys"
     ],
-    "author": "kazedepid",
-    "repository": "https://github.com/kazedepid/whatsapp-bot",
+    "author": "NeofetchNpc",
+    "repository": "https://github.com/NeofetchNpc/Hutao-Md",
     "license": "MIT",
     "directories": {
         "lib": "lib",

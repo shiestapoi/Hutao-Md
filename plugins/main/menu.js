@@ -8,7 +8,7 @@ const tags = {
     'admin': { name: 'Admin Menu' },
     'ai': { name: 'AI Menu' },
     'anime': { name: 'Anime Menu' },
-    'download': { name: 'Downloaders Menu' },
+    'downloader': { name: 'Downloaders Menu' },
     'main': { name: 'Utama Menu' },
     'owner': { name: 'Owner Menu' },
     'tools': { name: 'Tools Menu' }

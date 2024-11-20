@@ -39,6 +39,6 @@
 [![ShirokamiRyzen](https://github.com/ShirokamiRyzen.png?size=100)](https://github.com/ShirokamiRyzen)
 [![kazedepid](https://github.com/kazedepid.png?size=100)](https://github.com/kazedepid)
 
-### Recode
+### Staff Recode/Contributor
 [![NeofetchNpc](https://github.com/NeofetchNpc.png?size=100)](https://github.com/NeofetchNpc)
 [![NeastooID](https://github.com/NeeasTooID.png?size=100)](https://github.com/NeeasTooID)

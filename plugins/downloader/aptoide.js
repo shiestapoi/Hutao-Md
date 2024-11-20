@@ -3,7 +3,7 @@ import axios from "axios"
 export const cmd = {
     name: ['aptoide'],
     command: ['aptoide'],
-    category: ['download'],
+    category: ['downloader'],
     detail: {
         desc: 'Mendownload apk lewat aptoide',
         use: 'query'

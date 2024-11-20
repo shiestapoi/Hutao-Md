@@ -11,8 +11,6 @@ const tags = {
     'download': { name: 'Downloaders Menu' },
     'main': { name: 'Utama Menu' },
     'owner': { name: 'Owner Menu' },
-    'religion': { name: 'Religions Menu' },
-    'searching': { name: 'Search Menu' },
     'tools': { name: 'Tools Menu' }
 }
 

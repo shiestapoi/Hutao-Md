@@ -8,9 +8,11 @@ const tags = {
     'admin': { name: 'Admin Menu' },
     'ai': { name: 'AI Menu' },
     'anime': { name: 'Anime Menu' },
-    'downloader': { name: 'Downloaders Menu' },
+    'download': { name: 'Downloaders Menu' },
     'main': { name: 'Utama Menu' },
     'owner': { name: 'Owner Menu' },
+    'religion': { name: 'Religions Menu' },
+    'searching': { name: 'Search Menu' },
     'tools': { name: 'Tools Menu' }
 }
 
@@ -46,23 +48,7 @@ export const cmd = {
             teks = 'Tidak ada perintah yang ditemukan untuk kategori ini.'
         }
 
-        // Kirim pesan menggunakan conn.sendMessage tanpa forwardedNewsletterMessageInfo
-        await conn.sendMessage(m.chat, {
-            text: teks,
-            contextInfo: {
-                mentionedJid: [m.sender],
-                forwardingScore: 1,
-                isForwarded: true,
-                externalAdReply: {
-                    title: `LinucxMD © 2024`,
-                    body: 'Powered By YusupKakuu',
-                    thumbnailUrl: 'https://raw.githubusercontent.com/NeofetchNpc/ArchiveTMP/refs/heads/main/img-mp4/0194e08d62506aa0aea73dcaa743eb12.jpg',
-                    sourceUrl: 'https://chat.whatsapp.com/Bpaxfv3a1tLIx0gaGZTQpN',
-                    mediaType: 1,
-                    renderLargerThumbnail: true
-                },
-            },
-        })
+        await m.reply(teks)
     }
 }
 

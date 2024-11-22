@@ -2,12 +2,12 @@ import path from 'path'
 
 const timeZone = 'Asia/Jakarta'
 
-const tempName = 'tmp'
+const tempName = 'temp'
 global.tempDir = path.resolve(new URL('.', import.meta.url).pathname, tempName)
 
 const owner = [
-    ['6283897390164', 'YusupKakuu'],
-    ['6282xxxxxxx']
+    ['6283897390164', 'NeofetchNpc'],
+    ['6283897390164']
 ]
 
 const defaultPrefix = ['/', '!', '#', '.', '-', '🗿']

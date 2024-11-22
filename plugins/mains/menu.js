@@ -11,8 +11,6 @@ const tags = {
     'download': { name: 'Downloaders Menu' },
     'main': { name: 'Utama Menu' },
     'owner': { name: 'Owner Menu' },
-    'religion': { name: 'Religions Menu' },
-    'searching': { name: 'Search Menu' },
     'tools': { name: 'Tools Menu' }
 }
 
@@ -26,8 +24,8 @@ export const cmd = {
         const currentDate = new Date()
         const ucapannye = ucapan()
         let teks = `${ucapannye}\n`
-            + `Sistem otomatis *Whatsapp Bot* yang di buat dengan *_baileys_* yang siap membantu anda.\n\n`
-            + `â—¦  *Waktu* Â· ${formatDateInTimeZone(currentDate, timeZone)}\n`
+            + `Sistem otomatis *LinucxMD* yang di buat dengan *_Baileys_* yang siap membantu anda.\n\n`
+            + `◦  *Waktu* · ${formatDateInTimeZone(currentDate, timeZone)}\n`
         let totalFitur = 0
         for (const tag in tags) {
             teks += `\n*${tags[tag].name.toUpperCase()}*\n`
@@ -42,7 +40,7 @@ export const cmd = {
         }
 
         teks += `\nTotal fitur: ${totalFitur}\n`
-        teks += `> Bot Ini menggunakan script: https://github.com/kazedepid/whatsapp-bot\n\n> WhatsApp Bot@${version}\n\n`
+        teks += `Bot Ini Di Buat Oleh NeastooID\n> WhatsApp Bot@${version}\n\n`
 
         if (teks.trim() === '') {
             teks = 'Tidak ada perintah yang ditemukan untuk kategori ini.'
@@ -55,11 +53,11 @@ export const cmd = {
 function ucapan() {
     const time = new Date()
     const greetings = {
-        midnight: 'Selamat tengah malam ðŸŒŒ',
-        morning: 'Selamat pagi ðŸŒ„',
-        noon: 'Selamat siang ðŸŒ¤',
-        afternoon: 'Selamat sore ðŸŒ‡',
-        night: 'Selamat malam ðŸŽ‘'
+        midnight: 'Selamat tengah malam 🌌',
+        morning: 'Selamat pagi 🌄',
+        noon: 'Selamat siang 🌤',
+        afternoon: 'Selamat sore 🌇',
+        night: 'Selamat malam 🎑'
     }
 
     const hour = formatDateInTimeZone(time, timeZone).split(',')[1].split(':')[0]

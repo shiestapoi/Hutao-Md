@@ -1,5 +1,5 @@
 {
-    "name": "Huato-Md",
+    "name": "LinucxMD",
     "version": "0.0.1",
     "description": "WhatsApp bot using the Baileys library",
     "main": "index.js",
@@ -20,9 +20,12 @@
         "plugins": "plugins"
     },
     "dependencies": {
-        "@whiskeysockets/baileys": "github:amiruldev20/Baileys",
-        "awesome-phonenumber": "^6.9.0",
-        "neastooapi": "^0.1.10",
-        "your-api": "^1.0.5"
+        "@whiskeysockets/baileys": "^6.7.9",
+        "awesome-phonenumber": "^7.2.0",
+        "neastooapi": "^0.1.12",
+        "os": "^0.1.2",
+        "os-utils": "^0.0.14",
+        "your-api": "^1.0.5",
+        "yt-search": "^2.12.1"
     }
 }

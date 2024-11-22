@@ -2,22 +2,6 @@
     "users": [],
     "groups": [
         {
-            "jid": "6283897390164-1634189022@g.us",
-            "setting": {
-                "banned": false,
-                "detect": false,
-                "nsfw": false,
-                "antilink": false,
-                "antiraid": false,
-                "antivo": false,
-                "welcome": {
-                    "status": false,
-                    "msg": ""
-                }
-            },
-            "users": []
-        },
-        {
             "jid": "120363045226036370@g.us",
             "setting": {
                 "banned": false,
@@ -34,7 +18,7 @@
             "users": []
         },
         {
-            "jid": "120363190349592352@g.us",
+            "jid": "6283897390164-1634189022@g.us",
             "setting": {
                 "banned": false,
                 "detect": false,

@@ -13,11 +13,8 @@
 <a href="https://github.com/NeofetchNpc"><img title="Author" src="https://img.shields.io/badge/AUTHOR-YusupKakuu-green.svg?style=for-the-badge&logo=github"></a>
 
 ---------
-    
-## NOTE BEFORE USING!!
-- Ubah semua Informasi Owner di config.js
 
-### a little about this bot
+### about this bot
 - ✔️ | **No Button** 
 - ✔️ | **Multi Device** 
 - ✔️ | **Plugins** 

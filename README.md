@@ -14,7 +14,7 @@
 
 ---------
 
-### about this bot
+### 📌 about this bot
 - ✔️ | **No Button** 
 - ✔️ | **Multi Device** 
 - ✔️ | **Plugins** 

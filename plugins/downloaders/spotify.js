@@ -2,12 +2,12 @@ import { SpotifyDL } from 'neastooapi';
 import axios from 'axios';
 
 export const cmd = {
-    name: ['spotifydl'],
-    command: ['spotifydl'],
+    name: ['spotify'],
+    command: ['spotify'],
     category: ['download'],
     detail: {
         desc: 'Mendownload lagu dari Spotify',
-        use: 'url Spotify'
+        use: 'Url Spotify'
     },
     async start({ m, text, prefix, command, conn }) {
         if (!text) return m.reply(`Masukkan URL Spotifynya.\nExample: ${prefix + command} https://open.spotify.com/track/example`);

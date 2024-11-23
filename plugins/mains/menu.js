@@ -40,7 +40,7 @@ export const cmd = {
         }
 
         teks += `\nTotal fitur: ${totalFitur}\n`
-        teks += `Bot Ini Di Buat Oleh NeastooID\n> WhatsApp Bot@${version}\n\n`
+        teks += `Bot Ini Di Buat Oleh NeastooID\n*LinucxMD@${version}*\n\n`
 
         if (teks.trim() === '') {
             teks = 'Tidak ada perintah yang ditemukan untuk kategori ini.'

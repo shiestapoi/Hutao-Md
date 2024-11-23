@@ -6,8 +6,7 @@ export const cmd = {
     command: ['ping'],
     category: ['main'],
     detail: {
-        desc: 'Menampilkan status RAM, CPU, dan uptime sistem',
-        use: 'ping'
+        desc: 'Menampilkan status RAM, CPU, dan uptime sistem'
     },
     async start({ m, text, prefix, command, conn }) {
         try {

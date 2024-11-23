@@ -2,12 +2,12 @@ import { InstagramDL } from 'neastooapi'
 import axios from 'axios'
 
 export const cmd = {
-    name: ['igdl'],
-    command: ['igdl'],
+    name: ['ig'],
+    command: ['ig', 'instagram', 'igdl'],
     category: ['download'],
     detail: {
         desc: 'Mendownload video dari Instagram',
-        use: 'url Instagram'
+        use: 'url instagram'
     },
     async start({ m, text, prefix, command, conn }) {
         if (!text) return m.reply(`Masukkan URL Instagramnya.\nExample: ${prefix + command} https://www.instagram.com/p/example`)

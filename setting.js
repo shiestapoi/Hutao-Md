@@ -10,8 +10,11 @@ const owner = [
     ['6282179438863']
 ]
 
+const packname = 'ShiestaPoi'
+const author = 'Bot'
+
 const defaultPrefix = ['/', '!', '#', '.', '-', '🗿']
 
 const EmojiSw = ["🖤", "🤎", "💜", "💙", "💚", "💛", "🧡", "❤️", "🤍"];
 
-export { timeZone, owner, defaultPrefix, EmojiSw }
+export { timeZone, owner, packname, author, defaultPrefix, EmojiSw }

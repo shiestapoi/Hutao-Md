@@ -1,7 +1,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/NeofetchNpc/ArchiveTMP/refs/heads/main/img-mp4/0194e08d62506aa0aea73dcaa743eb12.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://raw.githubusercontent.com/NeofetchNpc/ArchiveTMP/refs/heads/main/img-mp4/0194e08d62506aa0aea73dcaa743eb12.jpg" width="70%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 
 ---------
@@ -11,6 +11,36 @@
 </p>
 <p align="center">
 <a href="https://github.com/NeofetchNpc"><img title="Author" src="https://img.shields.io/badge/AUTHOR-YusupKakuu-green.svg?style=for-the-badge&logo=github"></a>
+
+---------
+### 🔧 Installation of FFmpeg
+
+To ensure all features work correctly, please install FFmpeg on your system.
+
+#### Windows
+
+1. Download FFmpeg from [Gyan.dev](https://www.gyan.dev/ffmpeg/builds/).
+2. Extract the ZIP file to `C:\ffmpeg`.
+3. Add `C:\ffmpeg\bin` to your system PATH:
+    - Open "System Properties" and select "Environment Variables".
+    - Under "System variables", find and select "Path", then click "Edit".
+    - Click "New" and add `C:\ffmpeg\bin`.
+4. Click "OK" to save changes.
+
+#### Linux
+
+```bash
+sudo apt update
+sudo apt install ffmpeg
+```
+
+#### macOS
+
+```bash
+brew install ffmpeg
+```
+
+Verify the installation by running `ffmpeg -version` in your terminal.
 
 ---------
 

@@ -22,7 +22,7 @@ const handler = async (m, conn) => {
 
         if (!isUsingPrefix && !setting.usePrefix) {
         } else if (!prefix) {
-            return 
+            return
         }
 
         const trimText = m.text.slice(prefix.length).trim()
@@ -36,7 +36,7 @@ const handler = async (m, conn) => {
         const isOwner = [conn.user.jid, ...owner.map(([number]) => number.replace(/[^0-9]/g, '') + '@s.whatsapp.net')].includes(m.sender)
         const isRegistered = db.users.exist(m.sender)
         const isNsfw = isGroup ? db.groups.get(m.from).setting?.nsfw : true
-        const isBaileys = m.id.startsWith('3EB0')
+        const isBaileys = m.id?.startsWith('3EB0') && m.id?.length === 40
 
         const groupMetadata = isGroup ? await conn.groupMetadata(m.from) : {}
         const groupName = groupMetadata.subject || ''
@@ -80,7 +80,6 @@ const handler = async (m, conn) => {
                     }
                 }
             }
-
             if (!isBaileys && !isBroadcast) {
                 const stickerCommand = (m.type === 'stickerMessage'
                     ? db.stickers.get(Buffer.from(m.message[m.type].fileSha256).toString('base64'))?.command
@@ -106,7 +105,7 @@ const handler = async (m, conn) => {
                             isSuperAdmin: false,
                             isAdmin: false,
                             isBotAdmin: false,
-                            usePrefix: cmd.setting?.usePrefix !== undefined ? cmd.setting.usePrefix : true, 
+                            usePrefix: cmd.setting?.usePrefix !== undefined ? cmd.setting.usePrefix : true,
                             ...cmd.setting
                         }
 
@@ -157,7 +156,9 @@ const handler = async (m, conn) => {
             }
         }
 
-        await printLog({ m, conn, args, command, groupName, isGroup, isCommand })
+        if (!isBaileys) {
+            await printLog({ m, conn, args, command, groupName, isGroup, isCommand })
+        }
     } catch (e) {
         console.error(e)
     }

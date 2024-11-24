@@ -47,6 +47,19 @@
                 "🗿"
             ],
             "autojoin": false
+        },
+        {
+            "jid": "6287787403119@s.whatsapp.net",
+            "mode": "public",
+            "prefix": [
+                "/",
+                "!",
+                "#",
+                ".",
+                "-",
+                "🗿"
+            ],
+            "autojoin": false
         }
     ],
     "stickers": [],
